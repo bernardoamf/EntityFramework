@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AddressType.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="AWModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -67,91 +61,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AWModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="BusinessEntityAddress.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CategoryTrimmed.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CountryRegion.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Culture.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Customer.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EmailAddress.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Person.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PersonPhone.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PhoneNumberType.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Product.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProductCategory.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProductDescription.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProductModel.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProductModelProductDescriptionCulture.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProductSubcategory.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SalesOrderDetail.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SalesOrderHeader.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SalesOrderHeaderSalesReason.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SalesReason.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="StateProvince.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Store.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="UnitMeasure.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vIndividualCustomer.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vProductAndDescription.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vProductModelCatalogDescription.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vProductModelInstruction.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vStateProvinceCountryRegion.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vStoreWithAddress.cs">
-      <DependentUpon>AWModel.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
